@@ -89,15 +89,4 @@ To prevent excessive coupon claims, the following measures are implemented:
    - The system verifies `couponId` existence and availability before assigning.
    - Prevents users from attempting to claim non-existent or already claimed coupons.
 
----
-
-## Future Enhancements
-- Implement **user authentication** to prevent IP-based circumvention.
-- Add **email-based claim tracking** for better security.
-- Introduce **reCAPTCHA** to prevent bot abuse.
-
----
-
-## License
-This project is licensed under the [MIT License](LICENSE).
 
