@@ -1,7 +1,7 @@
 // client/src/services/api.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/v1';
+const API_URL = 'https://coupons-distribution-backend.onrender.com/api/v1';
 
 const api = axios.create({
   baseURL: API_URL,
