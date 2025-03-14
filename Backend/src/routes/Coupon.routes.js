@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { checkEligibility, getNextCoupon , seedCoupons , getAllCoupons , getCouponStats } from "../controllers/Coupon.controller.js";
+import { checkEligibility, getNextCoupon , seedCoupons , getAllCoupons , getCouponStats } from "../controllers/coupon.Controller.js";
 import { claimLimiter } from "../middleware/claimLimiter.js"
 
 const router = Router();
